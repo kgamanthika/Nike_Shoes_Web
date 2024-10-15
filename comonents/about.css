@@ -105,13 +105,17 @@ section nav .icons i:hover {
     align-items: center;
     justify-content: center;
     background: black;
+    /* Standard and prefixed background-clip for compatibility */
+    background-clip: text;
     -webkit-background-clip: text;
+    /* Transparent text for both standard and WebKit */
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
 }
 
 .about h1 span {
     background: linear-gradient(to right, #c72092 , #6c14d0);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-left: 15px;
@@ -156,7 +160,6 @@ section nav .icons i:hover {
     opacity: 1;
 }
 
-/* Fix typo - corrected to .image_container */
 .about .about_main .image_container {
     padding: 10px;
     display: flex;
@@ -176,6 +179,7 @@ section nav .icons i:hover {
 
 .about .about_main .about_text p {
     background: linear-gradient(to left, #c72092 , #6c14d0);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 22px;
