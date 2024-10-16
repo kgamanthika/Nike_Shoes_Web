@@ -20,7 +20,7 @@ html{
 
 ::-webkit-scrollbar-thumb{
     border-radius: 5px;
-    background: linear-gradient(to top, #c72092 , #6c14d0);
+    background: linear-gradient(to top, #c72092 , #0fc525);
 }
 
 section{
@@ -46,7 +46,7 @@ section nav{
 
 section nav .logo{
     font-size: 35px;
-    color: #c72092;
+    color: #07595d;
     margin: 5px 0;
     cursor: pointer;
     position: relative;
@@ -54,7 +54,7 @@ section nav .logo{
 }
 
 section nav .logo span{
-    color: #6c14d0;
+    color: #ff0000;
     text-decoration: underline;
 }
 
